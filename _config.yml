@@ -1,0 +1,16 @@
+# Site settings
+title: Tales From the Whitespace
+email: james@jamesralexander.com
+description: > # this means to ignore newlines until "baseurl:"
+    A blog for James Alexander. This is a collection of content
+    I have written as a reference for my C#, Python, and other
+    technology adventures. There is also a reasonable collection
+    of our ballroom dance videos collected here as well.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jamesralexander.com" # the base hostname & protocol for your site
+twitter_username: yanigisawa
+github_username: yanigisawa 
+permalink: /blog/content/:title
+
+# Build settings
+markdown: kramdown
