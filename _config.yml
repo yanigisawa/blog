@@ -33,7 +33,7 @@ keywords: "james, alexander, yanigisawa, ballroom, dance, python, raspberry, pi,
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/IMG_0700.jpg"
+background-img: "../img/IMG_0688.jpg"
 me-img: "/img/ProfilePic.png"
 
 ##############################
@@ -98,6 +98,8 @@ social:
     url: "https://youtube.com/yanigisawa"
   - title: "github"
     url: "https://github.com/yanigisawa"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/yanigisawa"
   - title: "rss"
     url: "/feed.xml"
 
@@ -130,3 +132,5 @@ sass:
 
 # Exclusion list from the generated _site
 exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+highlighter: pygments
+markdown: kramdown

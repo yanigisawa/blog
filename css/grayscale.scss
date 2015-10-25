@@ -1,8 +1,7 @@
 ---
 ---
 
-@import "variables";
-@import "mixins";
+@import "variables", "mixins", "syntax-highlighting";
 
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
@@ -324,7 +323,7 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    /* color: #fff; */
+    color: #F9E4DE;
     background-color: #222;
 
     -webkit-transition: all .3s;
@@ -394,4 +393,18 @@ body {
 
 .intro-text {
     color: #ddd;
+}
+
+pre {
+    word-wrap: inherit;
+}
+
+pre code {
+    overflow: auto;
+    white-space: pre;
+}
+
+
+.highlight {
+    text-align: left;
 }
