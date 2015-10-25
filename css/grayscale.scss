@@ -14,6 +14,7 @@ body {
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $light;
+    font-size: 18px;
     background-color: $dark;
 }
 
@@ -37,9 +38,11 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
     line-height: 1.5;
+    font-size: 18px;
 }
+
+li { font-size 18px; }
 
 @media(min-width:767px) {
     p {
@@ -47,6 +50,7 @@ p {
         font-size: 20px;
         line-height: 1.6;
     }
+    li { font-size: 20px; }
 }
 
 a {
@@ -408,3 +412,8 @@ pre code {
 .highlight {
     text-align: left;
 }
+
+.post-content {
+    text-align: left;
+}
+
