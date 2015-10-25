@@ -7,4 +7,4 @@ While getting to know my mac, I ran into an issue with moving the text editing c
 
 What wasn't immediately obvious to me at the time, was that in the preferences for Terminal, I could change the "Action" drop down to "send to shell" and type in the key combination as indicated in the links above that map to the action desired. For example, one would type in "Esc-b" into the Control Cursor Left key combination to map the Esc-b key combination to control cursor left, which in effect generates the same behavior I'm used to with putty and linux terminal apps.
 
-<a href="http://jamesralexander.com/blog/sites/default/files/macTerminalPreferences.png" target="_blank"><img src="http://jamesralexander.com/blog/sites/default/files/macTerminalPreferences_small.jpeg"/>
+<a href="img/macTerminalPreferences.png" target="_blank"><img src="/img/macTerminalPreferences_small.jpeg"/>

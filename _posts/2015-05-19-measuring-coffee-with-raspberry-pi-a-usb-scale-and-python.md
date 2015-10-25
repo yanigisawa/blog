@@ -37,4 +37,13 @@ def logToInitialState():
     streamer.log("Coffee Weight", _currentWeight)
     streamer.close()
 {% endhighlight %}
-<p><span style="color: #494949; font-family: Verdana, sans-serif; font-size: 12.1599998474121px; line-height: 20.6719989776611px;">The above code, combined with a morning's worth of people lifting the coffee pot to pour their mug and refill the pot, give me two tiles that look like this:</span></p><p>&nbsp;<a href="/blog/sites/default/files/Screen%20Shot%202015-05-18%20at%201.54.37%20PM.png" target="_blank" title="Initial State Tiles - Large View"><img src="/blog/sites/default/files/thumb_initialstate.png" alt="Initial State Tiles" title="Initial State Tiles" width="358" height="227" /></a></p><p>All of the python code that I wrote is available <a href="https://github.com/yanigisawa/coffee-scale/" target="_blank" title="Coffee Scale Github">on github</a>.</p><p>TODOS:&nbsp;</p><ul><li>I'd like for the "Lifted" tile to appear as just a number, rather than "true X 11"</li><li>It'd be great if there were a way to provide a public dashboard view of this visualization</li><li>Additional metrics for: # of Full Pots, # of mugs poured, etc.</li></ul>
+<p>
+The above code, combined with a morning's worth of people lifting the coffee pot to pour their mug and refill the pot, give me two tiles that look like this:</p>
+
+<p>&nbsp;<a href="/img/Screen%20Shot%202015-05-18%20at%201.54.37%20PM.png" target="_blank" title="Initial State Tiles - Large View"><img src="/img/thumb_initialstate.png" alt="Initial State Tiles" title="Initial State Tiles" width="358" height="227" /></a></p>
+<p>All of the python code that I wrote is available <a href="https://github.com/yanigisawa/coffee-scale/" target="_blank" title="Coffee Scale Github">on github</a>.</p>
+
+<p>TODOS: </p>
+* I'd like for the "Lifted" tile to appear as just a number, rather than "true X 11"
+* It'd be great if there were a way to provide a public dashboard view of this visualization
+* Additional metrics for: # of Full Pots, # of mugs poured, etc.

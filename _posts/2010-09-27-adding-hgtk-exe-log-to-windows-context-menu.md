@@ -25,13 +25,13 @@ I replaced "whatever" with "HG Log".
 
 When complete, your registry should look like this:
 
-<a href="http://jamesralexander.com/blog/sites/default/files/Hgtk_Registry.png" target="_blank">
-<img src="http://jamesralexander.com/blog/sites/default/files/Hgtk_Registry_small.png" alt="Hg Log Registry Item"/></a>
+<a href="img/Hgtk_Registry.png" target="_blank">
+<img src="/img/Hgtk_Registry_small.png" alt="Hg Log Registry Item"/></a>
 
 And your Context menu should have a new entry like this:
 
-<img src="http://jamesralexander.com/blog/sites/default/files/HgLogContextMenu.png" alt="Hg Log Context Menu"/>
+<img src="/img/HgLogContextMenu.png" alt="Hg Log Context Menu"/>
 
 And clicking on that will open the hgtk.exe Log window:
 
-<a href="http://jamesralexander.com/blog/sites/default/files/HgtkLog.png" target="_blank"><img src="http://jamesralexander.com/blog/sites/default/files/HgtkLog_640.png" alt="HgtkLog"/></a>
+<a href="img/HgtkLog.png" target="_blank"><img src="/img/HgtkLog_640.png" alt="HgtkLog"/></a>

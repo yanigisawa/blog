@@ -77,7 +77,7 @@ created: 1258898750
     &lt;/li&gt;
 &lt;/ul&gt;</pre>
 
-<p>Note, I also changed the javascript a little to automatically load the first item. My goal was to have a menu that would make certain CSS changes based upon which page was currently loaded. To do this, I added the ID attribute to each of the &lt;li&gt; tags, in order to identify them when I was ready to mark each item as active. <a href="http://jamesralexander.com/blogExamples/jQueryHistory/example1.html" target="_blank">Here is a live demo</a> of what I was trying to accomplish as well as the bug I encountered / created by using these specific ID names. </p>
+<p>Note, I also changed the javascript a little to automatically load the first item. My goal was to have a menu that would make certain CSS changes based upon which page was currently loaded. To do this, I added the ID attribute to each of the &lt;li&gt; tags, in order to identify them when I was ready to mark each item as active. <a href="blogExamples/jQueryHistory/example1.html" target="_blank">Here is a live demo</a> of what I was trying to accomplish as well as the bug I encountered / created by using these specific ID names. </p>
 
 <p>The issue seems to be that since I set the ID value to the exact same value as the hash value (e.g. id=”menuItem1” and href=”#menuItem1”) that the browser detected the &lt;li&gt; tag menuItem1 in this case as the position in the page that I wanted to scroll to when this link was clicked. </p>
 
@@ -96,6 +96,6 @@ created: 1258898750
 
 <pre>ColorActiveMenu(&quot;li&quot; + hash);</pre>
 
-<p><a href="http://jamesralexander.com/blogExamples/jQueryHistory/example2.html" target="_blank">Here is the full working page.</a>&#160;</p>
+<p><a href="blogExamples/jQueryHistory/example2.html" target="_blank">Here is the full working page.</a>&#160;</p>
 
 <p>Hope this helps.</p>

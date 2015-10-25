@@ -18,7 +18,7 @@ Hopefully this blog post will serve as a nice "look-back" post to see how far we
 
 Why Mac? Certainly not due to all of their <a href="http://www.apple.com/macbookpro/why-mac.html" target="_blank">marketing materials</a>, which are ridiculous. Here are some of my reasons for choosing a Macbook Pro:
 
-<ol><li>I have no mobile development device. Just my <a href="http://jamesralexander.com/blog/node/6" target="_blank">net book,</a> whose screen size is so small, it is barely enough to read items in my Google reader, let alone develop.</li>
+<ol><li>I have no mobile development device. Just my <a href="blog/node/6" target="_blank">net book,</a> whose screen size is so small, it is barely enough to read items in my Google reader, let alone develop.</li>
 <li>My main desktop is having intermittent power problems that I have been unable to diagnose. The laptop will serve as an alternate / debugging machine for my desktop.</li>
 <li>Desire to learn the Mac OS environment</li>
 <li>Ability to develop for any platform (iPhone, Windows, Mac, etc.) from a mac laptop</li>
