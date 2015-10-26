@@ -8,8 +8,12 @@
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $(".navbar-fixed-top").removeClass("navbar-invert");
+        $("#navbar-links").removeClass("navbar-invert");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".navbar-fixed-top").addClass("navbar-invert");
+        $("#navbar-links").addClass("navbar-invert");
     }
 });
 

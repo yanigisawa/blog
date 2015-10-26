@@ -2,6 +2,8 @@
 layout: post
 title: Measuring Coffee with Raspberry Pi, a USB Scale and Python
 created: 1432039419
+cover: /img/raspberrypi.jpeg
+nav-invert: true
 ---
 <p><strong>Update 2015-06-03:</strong> Initial State has added this project to <a href="http://blog.initialstate.com/quantified-coffee-machine/" target="_blank" title="Initial State Quantified Coffee">their blog</a>.</p>
 

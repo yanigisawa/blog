@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "variables", "mixins", "syntax-highlighting";
+@import "variables", "mixins", "colors", "mui", "syntax-highlighting";
 
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
@@ -12,7 +12,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $light;
     font-size: 18px;
     background-color: $dark;
@@ -42,7 +42,7 @@ p {
     font-size: 18px;
 }
 
-li { font-size 18px; }
+li { font-size: 18px; }
 
 @media(min-width:767px) {
     p {
@@ -117,6 +117,26 @@ ol {
                 &.active {
                     outline: none;
                     background-color: rgba($light, 0.3);
+                }
+            }
+        }
+    }
+}
+
+.navbar-invert {
+    a { 
+        color: $dark; 
+        &:hover {
+            background-color: rgba($dark, 0.3);
+        }
+    }
+
+    .nav { 
+        li {
+            a {
+                color: $dark; 
+                &:hover {
+                    background-color: rgba($dark, 0.3);
                 }
             }
         }
@@ -283,7 +303,7 @@ ol {
 
 @media(min-width:767px) {
     .content-section {
-        margin-top: 250px;
+        /* margin-top: 250px; */ 
     }
 
     .download-section {
@@ -307,6 +327,26 @@ ul.banner-social-buttons {
 }
 
 @media(max-width:767px) {
+    .bg-holder {
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .post-full {
+        .bg-holder {
+            min-height: 200px;
+
+            h1 {
+                bottom: 15px;
+                font-size: 32px;
+                line-height: 32px;
+            }
+            a.overlay {
+                left: initial;
+                right: 15px;
+            }
+        }
+    }
     ul.banner-social-buttons {
         li {
             display: block;
@@ -417,3 +457,154 @@ pre code {
     text-align: left;
 }
 
+/* Hero Image / Background CSS */
+
+
+.bg-holder {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-color: mui-color('blue-grey', '500');
+    background-size: cover;
+    min-height: 180px;
+    position: relative;
+
+    a {
+        color: #fff;
+
+        &.overlay {
+            bottom: 0;
+            color: #fff;
+            display: block;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 4;
+        }
+    }
+
+    .img-overlay {
+        bottom: 0;
+        background-color: #000;
+        display: block;
+        left: 0;
+        opacity: 0.5;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+    }
+
+    h2 {
+        bottom: 15px;
+        font-size: 34px;
+        font-weight: bold;
+        left: 15px;
+        line-height: 40px;
+        right: 15px;
+        margin: 0;
+        position: absolute;
+        z-index: 3;
+    }
+}
+
+.post-full {
+    position: relative;
+
+    .bg-holder {
+        left: 0;
+        min-height: 250px;
+        position: fixed;
+        right: 0;
+        top: 0;
+
+        h1 {
+            bottom: 25px;
+            line-height: 50px;
+        }
+
+        a.overlay {
+            position: fixed;
+            background: #414040;
+            padding: 5px;
+            top: 15px;
+            left: 15px;
+            bottom: initial;
+            right: initial;
+            border-radius: 2px;
+
+            i {
+                margin: 0;
+            }
+        }
+
+        a:hover {
+            text-decoration : none;
+        }
+    }
+}
+
+.bg-grey {
+    background-color: mui-color('grey', '500');
+}
+.bg-orange {
+    background-color: mui-color('orange', '500');
+    a {
+        color: #000;
+    }
+}
+.bg-yellow {
+    background-color: mui-color('yellow', '500');
+    a {
+        color: #000;
+    }
+}
+.bg-amber {
+    background-color: mui-color('amber', '500');
+    a {
+        color: #000;
+    }
+}
+.bg-light-blue {
+    background-color: mui-color('light-blue', '500');
+}
+.bg-lime {
+    background-color: mui-color('lime', '500');
+    a {
+        color: #000;
+    }
+}
+.bg-teal {
+    background-color: mui-color('teal', '500');
+}
+.bg-blue {
+    background-color: mui-color('blue', '500');
+}
+.bg-black-87 {
+    background-color: mui-color('black-alpha-87');
+}
+.bg-blue-grey {
+    background-color: mui-color('blue-grey', '500');
+}
+.bg-brown {
+    background-color: mui-color('brown', '500');
+}
+.bg-indigo {
+    background-color: mui-color('indigo', '500');
+}
+.bg-purple {
+    background-color: mui-color('purple', '500');
+}
+.bg-deep-purple {
+    background-color: mui-color('deep-purple', '500');
+}
+.bg-red {
+    background-color: mui-color('red', '500');
+}
+.bg-pink {
+    background-color: mui-color('pink', '500');
+}
+
+
+/* End Hero Image / Background CSS */

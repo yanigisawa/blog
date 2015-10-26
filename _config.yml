@@ -32,7 +32,7 @@ keywords: "james, alexander, yanigisawa, ballroom, dance, python, raspberry, pi,
 # Intro layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+# black-favicon: "/img/black-lab-glass.ico"
 background-img: "../img/IMG_0688.jpg"
 me-img: "/img/ProfilePic.png"
 
