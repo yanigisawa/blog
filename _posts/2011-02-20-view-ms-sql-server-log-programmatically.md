@@ -2,6 +2,7 @@
 layout: post
 title: View MS SQL Server Log Programmatically
 created: 1298218161
+section-type: post
 ---
 <p>If your user name is a member of the securityadmin SQL server role, you have access to run a magic undocumented stored procedure: xp_readerrorlog. This proc reads the log file from the SQL server and outputs the results in a table within MS Management studio. This allows for scripting access to the file, without needing direct access to the server's file system, or having to open the log tree in SQL Server Management Studio and wait for the UI. 
 </p>

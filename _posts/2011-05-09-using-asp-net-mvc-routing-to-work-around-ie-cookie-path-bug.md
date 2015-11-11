@@ -2,6 +2,7 @@
 layout: post
 title: Using ASP.NET MVC Routing to work around IE cookie path bug
 created: 1304959487
+section-type: post
 ---
 As seen from <a href="http://stackoverflow.com/questions/2156399/restful-cookie-path-fails-in-ie-without-trailing-slash" target="_blank">this stack overflow question</a> all versions of IE appear to have a "bug" that will not persist or retrieve cookies when set on a specific path that does not include a trailing slash. For example, if using the jquery cookie plugin:
 

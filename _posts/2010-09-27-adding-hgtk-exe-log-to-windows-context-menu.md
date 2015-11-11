@@ -2,6 +2,7 @@
 layout: post
 title: Adding HGtk.exe log to Windows Context Menu
 created: 1285594297
+section-type: post
 ---
 <strong style="color: red;"> Update: 2/27/2011
 Based on the comment added below, I realized that one can simply use the "Repository Explorer" option to view this same information. If you don't see this menu option when you right click a file, you can move it to your top-level context menu via the "Explorer Extension Settings." You can see this option if you right click in an empty area of the explorer window, and navigating to TortoiseHg -> Explorer Extension Settings. Then Adding "Repository Explorer" to your "Top menu items".

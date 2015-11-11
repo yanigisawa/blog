@@ -2,6 +2,7 @@
 layout: post
 title: Showcase 2014-04-27 Behind the Scenes
 created: 1399264813
+section-type: post
 ---
 I wanted to take a quick moment to share the full unedited version of <a href="https://www.youtube.com/watch?v=2OKGtbi4k8I" target="_blank">our waltz from Showcase</a> last week. First off, here is the full video we recorded from last Sunday, including some annotations I've added for context.
 

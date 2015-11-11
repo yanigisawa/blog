@@ -33,7 +33,7 @@ keywords: "james, alexander, yanigisawa, ballroom, dance, python, raspberry, pi,
 ################
 
 # black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/IMG_0688.jpg"
+background-img: "../img/Pearl-Lake-Blue-Water.jpg"
 me-img: "/img/ProfilePic.png"
 
 ##############################
@@ -61,8 +61,8 @@ paginate: 5
 
 fb-share: True
 twitter-share: True
-reddit-share: True
-disqus-shortname: "panossakkos"
+reddit-share: False
+disqus-shortname: "yanigisawa"
 
 ###############
 # Life Events #

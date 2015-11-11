@@ -2,6 +2,7 @@
 layout: post
 title: CalDigit Thunderbolt Station "Got-Chas" - Windows Boot Camp
 created: 1393787842
+section-type: post
 ---
 There are a few "got-chas" associated with the <a href="http://www.caldigit.com/thunderboltstation/" target="_blank">CalDigit thunderbolt station</a>, and with thunderbolt devices I wanted to mention to hopefully help someone in the future. First, I should mention that all of these are mentioned in the <a href="http://www.caldigit.com/thunderboltstation/faq.asp" target="_blank">CalDigit FAQs</a> and in their <a href="http://www.caldigit.com/KB/index.asp?KBID=139&viewlocale=1" target="_blank">knowledge base article on the subject.</a> However, I personally didn't do all of my research before buying their dock, so I had to find out the hard way. Hopefully this post helps someone in the future.
 

@@ -2,6 +2,7 @@
 layout: post
 title: jQuery History, page “jumps” to selected <li> item
 created: 1258898750
+section-type: post
 ---
 <p>The situation is this: I’m using jQuery for loading of all sub-pages of my main web page, and I want to maintain the browser history so that a user can simply click the “Back” button to navigate to the previous link. I found <a href="http://www.mikage.to/jquery/jquery_history.html" target="_blank">a jQuery history plug-in</a> that implements all of the history caching with a few lines of JavaScript, and an included .js file. It seems to work really well, but I had one issue: The browser’s scroll position would auto-scroll to the link’s position. It turns out this was developer error, but it took me a couple hours to finally figure out where the problem was, so I decided I should blog about it in case anyone was having the same problem and found this in the Google search results.</p>  <p>In order to make the jQuery history plug-in work,&#160; one needs to format one’s links like so:</p>    <pre>&lt;a href=&quot;#1&quot; rel=&quot;history&quot;&gt;load 1&lt;/a&gt;</pre>
 

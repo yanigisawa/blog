@@ -2,6 +2,7 @@
 layout: post
 title: Installing zsh on Raspberry Pi - Wheezy
 created: 1395581973
+section-type: post
 ---
 This blog post is simply capturing all of the command lines executed for installing zsh on your raspberry pi. These commands were lifted from the urban penguin's youtube video on <a href="http://www.youtube.com/watch?v=Z9EdbJc_XLA" target="_blank">zsh pimping your raspberry pi</a>. Watch his video for a full explanation of what each of these command lines does, he explains them far better than I could.
 

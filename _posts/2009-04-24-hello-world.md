@@ -2,6 +2,7 @@
 layout: post
 title: Hello World
 created: 1240547411
+section-type: post
 ---
 In Visual Studio, if you execute the keyboard shortcut Ctrl+E,Ctrl+S inside the text editor, all of the whitespace characters will be shown. Depending on the theme that I'm running, I've been tending to have this turned on. However, once I did, I started to get disgruntled by the excess space that is sometimes left on the ends of lines. Generally this is unintentional I realize, but this is something that notice, and is the idea for the title of this blog.
 

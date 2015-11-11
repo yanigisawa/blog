@@ -2,6 +2,7 @@
 layout: post
 title: Windows 7 Odd Hex File Name Sort Order
 created: 1279769492
+section-type: post
 ---
 <p>I ran across an interesting “feature” of Windows today. <a href="http://groups.google.com/group/microsoft.public.scripting.vbscript/browse_thread/thread/c4e09ab75201f2d8/6463e6f1c56cd39e?pli=1" target="_blank">Several</a>&#160;<a href="http://www.vistax64.com/vb-script/243990-more-weird-file-name-sorting-order-folder-explorer-window.html" target="_blank">other people</a> have noticed this same behavior in Windows. This has apparently <a href="http://support.microsoft.com/kb/319827" target="_blank">existed since Windows XP SP 1,</a> and was changed after Windows 2000. Specifically, I ran into this issue when trying to find a file in a folder in which the file names were incremented hex named files. For example, you can download my <a href="img/HexFileNames.zip" target="_blank">example files</a> or just create your own empty text files named similarly to the below, to reproduce this effect.</p>  <p>How I expected the files to be sorted, is in ASCII order, as it is when viewed via the “dir” command, or in the “ls” in Linux:</p>  <pre>yanigisawa@chompers:~/Dropbox/test$ ls -l
 total 0

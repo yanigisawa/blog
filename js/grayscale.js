@@ -12,8 +12,11 @@ $(window).scroll(function() {
         $("#navbar-links").removeClass("navbar-invert");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $(".navbar-fixed-top").addClass("navbar-invert");
-        $("#navbar-links").addClass("navbar-invert");
+        console.log($("#navbar-invert").val());
+        if ($("#navbar-invert").val() === "true") {
+            $(".navbar-fixed-top").addClass("navbar-invert");
+            $("#navbar-links").addClass("navbar-invert");
+        }
     }
 });
 

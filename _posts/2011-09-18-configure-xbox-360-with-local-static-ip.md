@@ -2,6 +2,7 @@
 layout: post
 title: Configure Xbox 360 with Local Static IP
 created: 1316370219
+section-type: post
 ---
 <b>Note: </b> This guide applies to the Xbox Dashboard version 2.0.13599.0 (System Settings -> Console Settings -> System Info)
 

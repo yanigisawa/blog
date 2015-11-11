@@ -2,6 +2,7 @@
 layout: post
 title: Visual Studio - Toggle Between Leading Tabs or Spaces Per Project
 created: 1282141079
+section-type: post
 ---
 If you need to toggle between using Tabs or spaces in your Visual Studio projects and files, you can use this simple Macro from within VS to toggle between tabs vs. no tabs:
 

@@ -2,6 +2,7 @@
 layout: post
 title: Making Dance Requests with Python
 created: 1408337874
+section-type: post
 ---
 The normal flow for requesting specific songs during a dance party (at least those held at Five Star Dance Studios in the Indianapolis area) is for the student (aka party attendee) to request the song of the DJ, and for the DJ to find the song on YouTube, and have it played from there. For a time, this was satisfactory, and each song that I requested was successfully found, and the correct version was played.
 

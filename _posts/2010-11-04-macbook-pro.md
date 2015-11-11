@@ -2,6 +2,7 @@
 layout: post
 title: Macbook Pro
 created: 1288845663
+section-type: post
 ---
 <b>Tech Specs</b>
 Model: MC373LL/A

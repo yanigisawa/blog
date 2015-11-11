@@ -2,6 +2,7 @@
 layout: post
 title: Cha Cha / Hustle Behind the Scenes
 created: 1382813354
+section-type: post
 ---
 With the past few routines my wife and I have done, we've only worked on our choreographed routines every other week. As such, I tend to forget what choreography we learned the last time we were working on it. To help work around this, we started recording the sessions with my iPhone. Since I've been watching Dancing with the Stars this season, I got the creative itch to publish some of these early videos as a "behind the scenes" look at how the routine comes together. 
 
