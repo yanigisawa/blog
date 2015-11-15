@@ -24,7 +24,7 @@ permalink: /blog/content/:title
 author: "James Alexander"
 lang: "en"
 title: "{ Tales from the Whitespace }"
-favicon: "/img/favicon.ico"
+favicon: "/img/HeyJames.ico"
 description: "Blog and website of James Alexander, blogging mainly for tech and ballroom dance. Opinions expressed are mine."
 keywords: "james, alexander, yanigisawa, ballroom, dance, python, raspberry, pi, jekyll, theme"
 
