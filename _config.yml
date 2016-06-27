@@ -50,6 +50,7 @@ delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
   - text: "No matter where you go, there you are."
   - text: "Software Developer by day, Ballroom dancer by night."
+  - text: "Ballroom dancers do it on hardwood."
 
 ########
 # Blog #
@@ -124,6 +125,7 @@ pages_list:
   Contact: 'contact'
 
 # Pagination path
+paginate: 5
 paginate_path: "blog/page:num"
 
 # Enable minification SASS
