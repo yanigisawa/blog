@@ -8,7 +8,7 @@ url: "http://jamesralexander.com/"
 # and NOT your user repository (https://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-# baseurl: /
+baseurl: ""
 permalink: /blog/content/:title
 
 # google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
@@ -48,9 +48,9 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
+  - text: "Ballroom dancers do it on hardwood."
   - text: "No matter where you go, there you are."
   - text: "Software Developer by day, Ballroom dancer by night."
-  - text: "Ballroom dancers do it on hardwood."
 
 ########
 # Blog #
@@ -125,7 +125,8 @@ pages_list:
   Contact: 'contact'
 
 # Pagination path
-paginate: 5
+gems: [jekyll-paginate]
+paginate: 25
 paginate_path: "blog/page:num"
 
 # Enable minification SASS
