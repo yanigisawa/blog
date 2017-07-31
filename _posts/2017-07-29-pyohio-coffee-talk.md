@@ -5,6 +5,8 @@ nav-invert: false
 section-type: post
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XY1p1UiP-fY" frameborder="0" allowfullscreen></iframe>
+
 [Henner Zeller's repo](https://github.com/hzeller/rpi-rgb-led-matrix#controlling-rgb-led-display-with-raspberry-pi-gpio) containing all wiring diagrams and Python C-bindings to render drawings and pixels on the LED panel.
 
 [My Repo](https://github.com/yanigisawa/coffee-scale) with all of the python code I wrote to read the scale and render animations to the LED panel.

@@ -49,8 +49,11 @@ start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
   - text: "Ballroom dancers do it on hardwood."
+  - text: "Technically it is more of a laminate."
+  - text: "Sometimes they're made out of vinyl."
   - text: "No matter where you go, there you are."
   - text: "Software Developer by day, Ballroom dancer by night."
+  - text: "Why are you still reading this?"
 
 ########
 # Blog #
