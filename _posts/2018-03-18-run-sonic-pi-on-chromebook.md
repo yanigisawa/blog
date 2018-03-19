@@ -37,16 +37,16 @@ is the difference in hard drive size.
 
 For more advanced features of Crouton, see the [Github Repo for the Project.](https://github.com/dnschneid/crouton)
 
-## Step 3 - Install Sonic-Pi
+## Step 3 - Install Sonic Pi
 
-Once you have your Ubuntu chroot environment, you're ready to install Sonic-Pi itself. From a Terminal in your Xfce environment:
+Once you have your Ubuntu chroot environment, you're ready to install SonicPi itself. From a Terminal in your Xfce environment:
 
 1. `sudo apt-get install software-properties-common` (this installs the add-apt-repository command)
 2. `sudo add-apt-repository ppa:sonic-pi/ppa` - Add the Sonic Pi PPA
 3. `sudo apt-get update`
 4. `sudo apt-get install sonic-pi` - (be sure to say Yes to Enabling Real-Time Audio for your user)
 
-Assuming all the above installed successfully, you're ready to start Sonic-Pi and the Audio Connection Toolkit:
+Assuming all the above installed successfully, you're ready to start SonicPi and the Audio Connection Toolkit:
 
 5. Type: `qjackctl` in the terminal
 6. Click Setup
@@ -54,3 +54,7 @@ Assuming all the above installed successfully, you're ready to start Sonic-Pi an
 8. Click Ok to save the settings
 9. Click the Play button to start the Jack server
 10. Type: `sonic-pi`
+
+Sonic Pi should start in a new window. Type `play 60` and click the Play button to make sure you can hear the note it is playing.
+If you didn't hear anything, check your volume level, and the selected audio output device in your Chromebook menu. (i.e. make
+sure you haven't selected a bluetooth headset or other alternate output device)
