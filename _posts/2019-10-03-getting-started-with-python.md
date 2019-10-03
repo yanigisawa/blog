@@ -15,13 +15,13 @@ The first question for you is: Are you new to Python? (i.e. you're an experience
 
 Here's a giant list of resources for getting started with Python for non-programmers.
 
-https://wiki.python.org/moin/BeginnersGuide/NonProgrammers
+<a href="https://wiki.python.org/moin/BeginnersGuide/NonProgrammers" target="_blank">https://wiki.python.org/moin/BeginnersGuide/NonProgrammers</a>
 
 Here's a step-by-step tutorial on getting an environment setup, and explains a lot about each piece of the work-flow:
 
-https://tutorial.djangogirls.org/en/
+<a href="https://tutorial.djangogirls.org/en/" target="_blank">https://tutorial.djangogirls.org/en/</a>
 
-To get your feet wet and to start coding with limited setup on your machine, you can use a 100% online coding experience like https://www.pythonanywhere.com/
+To get your feet wet and to start coding with limited setup on your machine, you can use a 100% online coding experience like <a href="https://www.pythonanywhere.com/" target="_blank">https://www.pythonanywhere.com/</a>
 
 <hr>
 
@@ -29,4 +29,4 @@ To get your feet wet and to start coding with limited setup on your machine, you
 
 Here's a link to a giant list of links for those with Programming experience, but not Python experience:
 
-https://wiki.python.org/moin/BeginnersGuide/Programmers
+<a href="https://wiki.python.org/moin/BeginnersGuide/Programmers" target="_blank">https://wiki.python.org/moin/BeginnersGuide/Programmers</a>
