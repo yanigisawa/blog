@@ -10,7 +10,9 @@
 
     {% include navigation.html %}
 
-    <header class="bg-holder post-page {% if page.color %}bg-{{ page.color }}{% endif %}" style="{% if page.cover %}background:url({{page.cover}}) no-repeat center center; background-size: cover{% endif %}">
+    <header
+      class="bg-holder post-page {% if page.color %}bg-{{ page.color }}{% endif %}"
+      style="{% if page.cover %}background:url({{page.cover}}) no-repeat center center; background-size: cover{% endif %} {% if page.css-color %} background-color: #{{ page.css-color }} {% endif %}">
     {% if page.cover %}<div class="img-overlay"></div>{% endif %}
     </header>
     <section id="{{ page.title }}" class="container content-section text-center">
